@@ -19,10 +19,10 @@
 ### API
 
 *Users Auth Services*
-| Method | Endpoint | Body | Description | Access |
+| Method | Endpoint | Description | Access |
 | :--- | :--- | :--- | :--- |
-| `POST` | `api/auth-service/register/` |  | Users can register to read and write blog posts | Public |
-| `POST` | `api/auth-service/login/` |  | Users can get the JWT token | Public |
+| `POST` | `api/auth-service/register/` | Users can register to read and write blog posts | Public |
+| `POST` | `api/auth-service/login/` | Users can get the JWT token | Public |
 
 *Post Services*
 | Method | Endpoint | Description | Access |
@@ -39,7 +39,4 @@
 
 ### High Level Design
 
-
-
-
-
+![HLD](https://github.com/andtr-42/swe-mini-projects/raw/main/personal-blog/DOCS/personal-blog.svg))
